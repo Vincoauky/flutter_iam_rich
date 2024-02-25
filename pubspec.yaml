@@ -1,0 +1,28 @@
+name: flutter_iamrich
+description: "A new Flutter project."
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: '>=3.2.6 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_launcher_icons: ^0.13.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter_launcher_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path: "image/icon_meow.png"
+  min_sdk_android: 16
+
+flutter:
+  uses-material-design: true
+  assets:
+    - image/agusnocounter.png
